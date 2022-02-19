@@ -1,0 +1,111 @@
+.event_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 93%;
+    min-height: 110px;
+    background: rgb(70, 86, 228);
+    border-radius: 4px;
+    border: solid 2px black;
+    color: white;
+    transition: all 0.25s;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  .event_box:hover {
+    cursor: pointer;
+    min-height: 110px;
+    height: auto;
+    background: rgb(31, 50, 226);
+  }
+  
+  .event_box .description {
+    display: none;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    width: 85%;
+    overflow-wrap: break-word;
+  }
+  
+  .event_box:hover .description {
+    display: block;
+  }
+  
+  .event_box .title {
+    display: block;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+    overflow-wrap: break-word;
+  }
+  
+  .event_box .place {
+    display: inline;
+    font-size: 16px;
+    overflow-wrap: break-word;
+    width: 57%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+  
+  .event_box .time {
+    display: inline;
+    font-size: 12px;
+    width: 40%;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    align-self: flex-end;
+  }
+  
+  .event_box .event_bottom_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .event_box_window {
+    flex-direction: column;
+    width: 490px; 
+    height: 458px;
+    padding: 18px 9px;
+    border-radius: 4px;
+    background: #fafafa;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    margin: auto;
+    display: none;
+    opacity: 0;
+    z-index: 38;
+    text-align: center;
+  }
+  
+  .event_box_window_close {
+    width: 21px; height: 21px;
+    position: absolute;
+    font-size: 39px;
+    top: -11px; right: 11px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .event_box_window .description {
+    width: 360px;
+    overflow-wrap: break-word;
+  }
+  
+  .event_box_window .title {
+    width: 330px;
+    overflow-wrap: break-word;
+  }
+  
+  .event_box_window a, .event_box_window b {
+    font-size: 20px;
+  }

@@ -1,0 +1,479 @@
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100%;
+}
+
+html{
+  /*background-image: url(../../images/background.svg);*/
+  /*height: 5000px;/*4555px;*/
+}
+
+a {
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  min-height: 100hv;
+}
+
+.wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100hv;
+  background-image: url(../../images/background.svg);
+}
+
+.contain  {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contain-2 {
+  height: 100%;
+  width: 100%;
+  /*max-width: 1280px;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contain_3{
+  width: 800px;
+  height: 475px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #0188ED;
+  border-radius: 50px;
+  position: relative;
+  float: left;
+  z-index: 2;
+
+}
+
+.contain_4{
+  width: 1100px;
+  height: 675px;
+  background: #FA759E;
+  border-radius: 50px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.wrap{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Upper_text{
+  margin-top: 15px;
+  align-self: center;
+  width: 645px;
+  height: 120px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 56px;
+  border-radius: 50px;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.Lower_text{
+  align-self: center;
+  width: 725px;
+  height: 300px;
+  background: #6DC9F7;
+  border-radius: 50px;
+}
+
+.Lower_text_des{
+  width: 100%;
+  height: 100%;
+  margin-left: 15px;
+  margin-top: 30px;
+  padding-right: 15px;
+  color: #000000;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.main_block{
+  max-width: 1920px;
+  max-height: 895px;
+}
+.main_blocks{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.banner{
+  max-width: 1920px;
+  height: 695px;
+}
+.top{
+  padding: 16px 0;
+  height: auto;
+  background-color: #0089EF;
+  border-bottom: solid 4px white;
+}
+.top-w{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.logo{
+  padding-left: 50px;
+  width: 100%;
+  max-width: 360px;
+  display: block;
+  font-size: 36px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.top-right{
+  width: 60%;
+  font-size: 36px;
+  line-height: 30px;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-content: space-between;
+  padding-right: 50px;
+
+}
+
+.ab_proj, .feedback, .contacts, .log, .logout, .personal_cabinet_link {
+  font-size: 36px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.banner-txt-1{
+  width: 630px;
+  height: 260px;
+  font-weight: 900;
+  font-size: 88px;
+  line-height: 127px;
+  text-align: right;
+  align-self: flex-end;
+  color: #FFFFFF;
+  text-shadow: 7px 8px 4px rgba(0, 0, 0, 0.25);
+  padding-right: 32px;
+}
+.banner-txt-2{
+  width: 1246px;
+  height: 260px;
+  font-weight: 900;
+  font-size: 88px;
+  line-height: 127px;
+  text-align: left;
+  align-self: flex-start;
+  color: #FFFFFF;
+  text-shadow: 7px 8px 4px rgba(6, 6, 6, 0.25);
+  padding-left: 32px;
+  margin-top: 100px;
+}
+.banner-w{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.icon_main{
+  width: 448px;
+  height: 448px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 20px solid #FFD7E5;
+  box-sizing: border-box;
+  border-radius: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: auto;
+  z-index: 1;
+}
+.in_circle{
+  width: 90%;
+  height: 90%;
+  background-size: cover;
+}
+
+#in_circle_1{ background: url(../../images/v38_76.png);background-size: cover;}
+#in_circle_2{ background: url(../../images/v38_73.png);background-size: cover;}
+#in_circle_3{ background: url(../../images/v38_68.png);background-size: cover;}
+
+#main_1_1{
+  left: 15px;
+  top: 20px;
+}
+#main_1_2{
+  top: -265px;
+  left: -250px;
+}
+#main_1_3{
+  top: -1130px;
+}
+#main_4{
+  padding-top: 20px;
+}
+.footer{
+  width: 100%;
+  height: 330px;
+  background-color: #0188ED;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot_wrap{
+  width: 100%;
+  height: 70%;
+  padding-left: 33px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.foot_text{
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+.foot_left{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.foot_right{
+  height: 100%;
+  width: 40%;
+}
+.foot_logo{
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.foot_dev{
+  width: 80%;
+  display: flex;
+  flex-direction:row ;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo_fefu{
+  align-self: center;
+}
+.line{
+  height: 5px;
+  width: 572px;
+  background-color: #FFFFFF;
+}
+.foot_right_logo{
+  width: 572px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.last_wrap{
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0);
+  opacity: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.feeder{
+  height: 550px;
+  width: 450px;
+  background-image: url(../../images/feeder.png);
+  background-size: cover;
+}
+.feeds{
+  width: 1100px;
+  height: 550px;
+  background-color: #6DC9F7;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hidden_block{
+  width: 1px;
+  height: 800px;
+  background: rgba(255, 255, 255, 0);
+}
+
+.otziv{
+  width: 90%;
+  height: 90%;
+}
+
+  
+  #login_window {
+  width: 398px; height: 278px;
+  padding: 18px 9px;
+  border-radius: 16px;
+  background: #0188ED;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  margin: auto;
+  display: none;
+  opacity: 0;
+  z-index: 38;
+  text-align: center;
+  color: white;
+  }
+  
+  #newacc_window {
+  width: 398px; height: 348px;
+  padding: 18px 9px;
+  border-radius: 16px;
+  background: #ff71c8;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  margin: auto;
+  display: none;
+  opacity: 0;
+  z-index: 38;
+  text-align: center;
+  color: white;
+  }
+  
+  #login_close, #newacc_close, #review_form_close {
+  width: 21px; height: 21px;
+  position: absolute;
+  font-size: 44px;
+  top: -12px; right: 12px;
+  cursor: pointer;
+  display: block;
+  }
+  
+  .overlay {
+  z-index: 37;
+  position: fixed;
+  background: rgba(0,0,0,.7);
+  width: 100%; height: 100%;
+  top: 0; left: 0;
+  cursor: pointer;
+  display: none;
+  }
+  
+  .log_fields {
+  display: flex;
+  flex-direction: row;
+  
+  }
+  
+  .login_field {
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .newacc_field {
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .input_fields {
+  width: 270px;
+  height: 30px;
+  align-self: center;
+  margin-top: 20px;
+  border-radius: 8px;
+  }
+  
+  .vhod {
+  font-size: 30px;
+  }
+  
+  #new_acc_text {
+  font-size: 16px;
+  }
+
+  .CreateAcc {
+    text-decoration: underline;
+    color: inherit;
+  }
+  
+  #login_button {
+  width: 100px;
+  height: 35px;
+  align-self: center;
+  margin-top: 20px;
+  background: #6DC9F7;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  color: black;
+  transition: background 0.05s linear;
+  transition: all .05s linear;
+  box-shadow: 3px 3px 3px rgb(26, 58, 241);
+  cursor: pointer;
+  }
+  
+  #login_button:active {
+  background: #51a1fd;
+  box-shadow: 1px 1px 1px rgb(26, 58, 241);
+  transform: translateY(2px);
+  }
+  
+  #newacc_button {
+  width: 190px;
+  height: 35px;
+  align-self: center;
+  margin-top: 20px;
+  background: rgb(255, 177, 238);
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 8px;
+  transition: background 0.05s linear;
+  transition: all .05s linear;
+  box-shadow: 3px 3px 3px rgb(252, 41, 171);
+  cursor: pointer;
+  }
+  
+  #newacc_button:active {
+  background: rgb(255, 148, 214);
+  box-shadow: 1px 1px 1px rgb(252, 41, 171);
+  transform: translateY(2px);
+  }
+
+  .verify_content {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    height: 600px;
+  }

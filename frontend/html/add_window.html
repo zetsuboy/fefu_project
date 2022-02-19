@@ -1,0 +1,62 @@
+<?php 
+$today = date("Y-m-d");
+?>
+<div class='add_window'>
+    <b>Добавить событие</b>
+    <span id="add_window_close">ₓ</span>
+    <div class='line'></div>
+    <form class='add_form' method='post'>
+        <div class='add_window_line'>
+            <b>Название: </b>
+            <input type='text' required name='event_name' size='34' maxlength='35'></input>
+        </div>
+        <?php /*<div class='checkboxes_field'><b>Пометки: </b>
+            <div class='checkboxes'>
+                <div class='add_window_lineX'>
+                    <input type='checkbox' name='event_tag[]' value='1'></input>
+                    <label for='event_tag1'>Пара</label>
+                </div>
+                <div class='add_window_lineX'>
+                    <input type='checkbox' name='event_tag[]' value='1'></input>
+                    <label for='event_tag2'>Контрольная работа</label>
+                </div>
+                <div class='add_window_lineX'>
+                    <input type='checkbox' name='event_tag[]' value='1'></input>
+                    <label for='event_tag3'>Внеучебная деятельность</label>
+                </div>
+                <div class='add_window_lineX'>
+                    <input type='checkbox' name='event_tag[]' value='1'></input>
+                    <label for='event_tag4'>Самоподготовка</label>
+                </div>
+            </div>
+        </div>*/ ?>
+        <div class='add_window_line'>
+            <b>Дата: </b>
+            <?php echo("<input type='date' required name='event_date' min='$today'></input>"); ?>
+        </div>
+        <div class='add_window_line'>
+            <b>Время: </b>
+            <input type='time' required name='event_start'></input>
+            <b>—</b>
+            <input type='time' required name='event_end'></input>
+        </div>
+        <div class='add_window_line'>
+            <b>Периодичность: </b>
+            <select size='1' name='period'>
+                <option selected value='Единожды'>Единожды</option>
+                <option value='Каждую неделю'>Каждую неделю</option>
+                <option value='Каждые 2 недели'>Каждые 2 недели</option>
+            </select>
+        </div>
+        <div class='add_window_line'>
+            <b>Место проведения: </b>
+            <input type='text' name='event_place' size='24' maxlength='20'></input>
+        </div>
+        <div class='add_window_line'>
+            <b>Описание: </b>
+            <textarea name='description' cols='32' rows='3' maxlength='150'></textarea>
+        </div>
+        <input type='submit' id='add_button' value='Добавить!'></input>
+    </form>
+    <b id='add_result'></b>
+</div>
